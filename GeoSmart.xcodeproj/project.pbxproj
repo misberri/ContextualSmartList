@@ -70,6 +70,7 @@
 		AB5F6DD350CE11591D57C287 /* MISSmartListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartListViewModel.h; sourceTree = "<group>"; };
 		AB5F6DEAEA0CCA61139D6D5A /* MISLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISLogFormatter.h; sourceTree = "<group>"; };
 		AB5F6E3BDD087BF709058ADB /* GeoSmart-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoSmart-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AB5F6EA94685902F7AD1F2AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 		AB5F6F1929BE4507A17575F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AB5F6F1F5BFF29A5436C14E4 /* GeoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5F6F91503EFD6B5EEF013F /* MISSmartListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartListItem.m; sourceTree = "<group>"; };
@@ -200,6 +201,7 @@
 				AB5F67F2531EDBA777312DF8 /* UI */,
 				AB5F6223BE74B81BD94B41D3 /* Core */,
 				AB5F69B507975A25C4108BAF /* Utils */,
+				AB5F6EA94685902F7AD1F2AB /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
