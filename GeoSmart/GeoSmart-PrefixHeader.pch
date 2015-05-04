@@ -1,0 +1,38 @@
+//
+//  GeoSmart-PrefixHeader.pch
+//  GeoSmart
+//
+//  Created by Agathe Battestini on 5/1/15.
+//  Copyright (c) 2015 Misberri. All rights reserved.
+//
+
+#ifndef GeoSmart_GeoSmart_PrefixHeader____FILEEXTENSION___
+#define GeoSmart_GeoSmart_PrefixHeader____FILEEXTENSION___
+
+    // Include any system framework and library headers here that should be included in all compilation units.
+    // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+    #ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <libextobjc/EXTScope.h>
+
+    #import <CocoaLumberjack/DDLog.h>
+    #import <ReactiveCocoa/ReactiveCocoa.h>
+    #import <ReactiveCocoa/NSObject+RACDescription.h>
+    #import <ReactiveViewModel/RVMViewModel.h>
+
+    #import <CocoaLumberjack/DDLog.h>
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+
+
+    #define MAS_SHORTHAND
+    #import <Masonry/Masonry.h>
+
+
+    #import <ABUtils/ABUtils.h>
+
+#endif
+
+#endif

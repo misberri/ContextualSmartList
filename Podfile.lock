@@ -1,0 +1,140 @@
+PODS:
+  - ABUtils (0.0.1):
+    - ReactiveViewModel
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking-RACExtensions (0.1.6):
+    - AFNetworking (~> 2.0)
+    - ReactiveCocoa (~> 2.0)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BOString (0.0.9)
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
+    - CocoaLumberjack/Core
+  - Expecta (0.2.4)
+  - ISHPermissionKit (0.8.0)
+  - libextobjc (0.4.1):
+    - libextobjc/EXTADT
+    - libextobjc/EXTConcreteProtocol
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTNil
+    - libextobjc/EXTSafeCategory
+    - libextobjc/EXTScope
+    - libextobjc/EXTSelectorChecking
+    - libextobjc/EXTSynthesize
+    - libextobjc/NSInvocation+EXT
+    - libextobjc/NSMethodSignature+EXT
+    - libextobjc/RuntimeExtensions
+    - libextobjc/UmbrellaHeader
+  - libextobjc/EXTADT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSInvocation+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/NSMethodSignature+EXT (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - libextobjc/UmbrellaHeader (0.4.1)
+  - LumberjackConsole (2.0.2):
+    - CocoaLumberjack (>= 1.6.4)
+    - NBUCore (>= 2.0.2)
+  - Mantle (1.5.4):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5.4)
+  - Masonry (0.6.1)
+  - NBUCore (2.0.4)
+  - OCHamcrest (4.1.1)
+  - OCMockito (1.4.0):
+    - OCHamcrest (~> 4.0)
+  - RCLocationManager (0.1)
+  - Reachability (3.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - XCAsyncTestCase (1.0.0)
+
+DEPENDENCIES:
+  - ABUtils (from `https://github.com/agathe/ABUtils`)
+  - AFNetworking-RACExtensions
+  - BOString
+  - CocoaLumberjack (~> 1.9.1)
+  - Expecta (~> 0.2.0)
+  - ISHPermissionKit
+  - libextobjc
+  - LumberjackConsole (~> 2.0.2)
+  - Mantle (~> 1.5)
+  - Masonry (~> 0.6)
+  - OCMockito
+  - RCLocationManager (from `https://github.com/rcabamo/RCLocationManager`)
+  - Reachability
+  - ReactiveCocoa
+  - ReactiveViewModel
+  - XCAsyncTestCase
+
+EXTERNAL SOURCES:
+  ABUtils:
+    :git: https://github.com/agathe/ABUtils
+  RCLocationManager:
+    :git: https://github.com/rcabamo/RCLocationManager
+
+SPEC CHECKSUMS:
+  ABUtils: a8103e357c79855799d853fec9a5b544b1b5c2fa
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  AFNetworking-RACExtensions: 501ab1564f5be65e01fe3017cda7bba25764c20d
+  BOString: c896f83b514996bbe874c0a3afd61f4c6764e0ed
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  Expecta: cfaf1d3e2e194ca704a25e997093d30a1ce70b61
+  ISHPermissionKit: adcdac6b69d0f045c33dadbdbe3ac70da7cd128a
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  LumberjackConsole: d02280ec79994fcbaa10b28351813361ac5ec946
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  NBUCore: 89cbf3976cae47c358fd0ed8562ef66d79a8904a
+  OCHamcrest: 6f03ffa81d12feab872638490a44ab0a6d3aca10
+  OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
+  RCLocationManager: f02bd426e93e87693fe8a2adf76f917a74d774c9
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  XCAsyncTestCase: ff65c4665825960cfd90b18820342ec4671007bc
+
+COCOAPODS: 0.34.2

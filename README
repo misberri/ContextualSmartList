@@ -1,0 +1,10 @@
+# GeoSmart
+
+## Installation
+
+- cocoapods
+  - > pod install
+- open the xcworkspace file
+- run GeoSmart target on a device to get real GPS data
+
+

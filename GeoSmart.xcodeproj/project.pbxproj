@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310154921AF41124009B867A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310154911AF41124009B867A /* CoreLocation.framework */; };
+		310154941AF41129009B867A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310154931AF41129009B867A /* CoreGraphics.framework */; };
+		310154961AF4112F009B867A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310154951AF4112F009B867A /* Security.framework */; };
+		310154981AF4113F009B867A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310154971AF4113F009B867A /* CoreFoundation.framework */; };
+		3101549A1AF4114C009B867A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310154991AF4114C009B867A /* UIKit.framework */; };
+		8EB857288C882B6C07BC3AB4 /* libPods-GeoSmart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6212472ADB6C979CEC8174 /* libPods-GeoSmart.a */; };
+		AB5F60D6508CA785E67B1A53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5F6529DAC17FB83DB3A540 /* Images.xcassets */; };
+		AB5F60FFB082D767E63A690C /* MISSmartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6B2A13C556AF32195977 /* MISSmartManager.m */; };
+		AB5F65489116C53B4E923FFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F69ABBDA181F4E932700B /* main.m */; };
+		AB5F661985F6F07AEBB34EAA /* GeoSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6F98ECE8D409C81FDE2E /* GeoSmartTests.m */; };
+		AB5F686530E15F6B300EC4E0 /* MISAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F68E357976CF9426BEB27 /* MISAPIManager.m */; };
+		AB5F69551012463D4E4F3B91 /* MISSmartList.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F620BB4CF8A378F4C20C6 /* MISSmartList.m */; };
+		AB5F69789D02DB57128238A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB5F61516A386DD8569B32E7 /* LaunchScreen.xib */; };
+		AB5F6AF8947138D21429074A /* MISLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6784FFFD5B4591F5D3DC /* MISLogFormatter.m */; };
+		AB5F6C4311CD5186E5EE19E0 /* MISGeoSmartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F665C48DE931F7D5C2C87 /* MISGeoSmartAppDelegate.m */; };
+		AB5F6C63756F8E727D78B181 /* MISSmartListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F69B85278C3D1AFC7ADE7 /* MISSmartListViewController.m */; };
+		AB5F6D4D8442BA989E1C0016 /* MISAPIManager+Context.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6C5B88B13BF63B1569C4 /* MISAPIManager+Context.m */; };
+		AB5F6DC5D4F803D712A00566 /* MISSmartListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6640ED94250A41016536 /* MISSmartListViewModel.m */; };
+		AB5F6FEF355561186CC9C9A8 /* MISSmartListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5F6F91503EFD6B5EEF013F /* MISSmartListItem.m */; };
+		DF663012C34A992C3598748D /* libPods-GeoSmartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F58961DD41D4CBFFF69FD155 /* libPods-GeoSmartTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5F67AC9316C66094596C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5F666C87C274FA0F29982F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5F6AEB7AA8812ED1D29C33;
+			remoteInfo = GeoSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D43CEFDA098BE507CFE61C /* Pods-GeoSmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSmartTests/Pods-GeoSmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		310154911AF41124009B867A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		310154931AF41129009B867A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		310154951AF4112F009B867A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		310154971AF4113F009B867A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		310154991AF4114C009B867A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C8AE2618CE06002EA11F712 /* Pods-GeoSmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSmartTests/Pods-GeoSmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5F60C72434B26FBD34C127 /* MISTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISTheme.h; sourceTree = "<group>"; };
+		AB5F60DA3B202DCFF3521ADC /* MISAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISAPIManager.h; sourceTree = "<group>"; };
+		AB5F61117227B95096BB4288 /* MISSmartListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartListViewController.h; sourceTree = "<group>"; };
+		AB5F620BB4CF8A378F4C20C6 /* MISSmartList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartList.m; sourceTree = "<group>"; };
+		AB5F6385C98525E9168BD18E /* MISGeoSmartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MISGeoSmartAppDelegate.h; sourceTree = "<group>"; };
+		AB5F63A2A0161D9F7DBB2A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AB5F6529DAC17FB83DB3A540 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB5F65D33118A81677BEEE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB5F6640ED94250A41016536 /* MISSmartListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartListViewModel.m; sourceTree = "<group>"; };
+		AB5F665C48DE931F7D5C2C87 /* MISGeoSmartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MISGeoSmartAppDelegate.m; sourceTree = "<group>"; };
+		AB5F6784FFFD5B4591F5D3DC /* MISLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISLogFormatter.m; sourceTree = "<group>"; };
+		AB5F67AC53190AAE34D5A880 /* GeoSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F68E357976CF9426BEB27 /* MISAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISAPIManager.m; sourceTree = "<group>"; };
+		AB5F69ABBDA181F4E932700B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB5F69B85278C3D1AFC7ADE7 /* MISSmartListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartListViewController.m; sourceTree = "<group>"; };
+		AB5F6A8AD9EF53474B0E4921 /* MISSmartListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartListItem.h; sourceTree = "<group>"; };
+		AB5F6B2A13C556AF32195977 /* MISSmartManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartManager.m; sourceTree = "<group>"; };
+		AB5F6B391C7BEEED2A0B0B84 /* MISSmartManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartManager.h; sourceTree = "<group>"; };
+		AB5F6BB9F496DD37E2948E78 /* MISSmartList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartList.h; sourceTree = "<group>"; };
+		AB5F6C5B88B13BF63B1569C4 /* MISAPIManager+Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MISAPIManager+Context.m"; sourceTree = "<group>"; };
+		AB5F6DD350CE11591D57C287 /* MISSmartListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISSmartListViewModel.h; sourceTree = "<group>"; };
+		AB5F6DEAEA0CCA61139D6D5A /* MISLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MISLogFormatter.h; sourceTree = "<group>"; };
+		AB5F6E3BDD087BF709058ADB /* GeoSmart-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoSmart-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AB5F6F1929BE4507A17575F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AB5F6F1F5BFF29A5436C14E4 /* GeoSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5F6F91503EFD6B5EEF013F /* MISSmartListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MISSmartListItem.m; sourceTree = "<group>"; };
+		AB5F6F98ECE8D409C81FDE2E /* GeoSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoSmartTests.m; sourceTree = "<group>"; };
+		AB5F6FA6E588BD2BDB09DF31 /* MISAPIManager+Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MISAPIManager+Context.h"; sourceTree = "<group>"; };
+		AC6212472ADB6C979CEC8174 /* libPods-GeoSmart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoSmart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CF3D2DDE7A15CA29DF7BB /* Pods-GeoSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSmart/Pods-GeoSmart.release.xcconfig"; sourceTree = "<group>"; };
+		F47D4F9C131CDE588F1663A5 /* Pods-GeoSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoSmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoSmart/Pods-GeoSmart.debug.xcconfig"; sourceTree = "<group>"; };
+		F58961DD41D4CBFFF69FD155 /* libPods-GeoSmartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoSmartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5F61507A57393B15C2D208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF663012C34A992C3598748D /* libPods-GeoSmartTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F6FE929126EE46EE08B92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3101549A1AF4114C009B867A /* UIKit.framework in Frameworks */,
+				310154981AF4113F009B867A /* CoreFoundation.framework in Frameworks */,
+				310154961AF4112F009B867A /* Security.framework in Frameworks */,
+				310154941AF41129009B867A /* CoreGraphics.framework in Frameworks */,
+				310154921AF41124009B867A /* CoreLocation.framework in Frameworks */,
+				8EB857288C882B6C07BC3AB4 /* libPods-GeoSmart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635D6C8EC20D6E99103453EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				310154991AF4114C009B867A /* UIKit.framework */,
+				310154971AF4113F009B867A /* CoreFoundation.framework */,
+				310154951AF4112F009B867A /* Security.framework */,
+				310154931AF41129009B867A /* CoreGraphics.framework */,
+				310154911AF41124009B867A /* CoreLocation.framework */,
+				AC6212472ADB6C979CEC8174 /* libPods-GeoSmart.a */,
+				F58961DD41D4CBFFF69FD155 /* libPods-GeoSmartTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5F6223BE74B81BD94B41D3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F620BB4CF8A378F4C20C6 /* MISSmartList.m */,
+				AB5F6BB9F496DD37E2948E78 /* MISSmartList.h */,
+				AB5F6F91503EFD6B5EEF013F /* MISSmartListItem.m */,
+				AB5F6A8AD9EF53474B0E4921 /* MISSmartListItem.h */,
+				AB5F6B2A13C556AF32195977 /* MISSmartManager.m */,
+				AB5F6B391C7BEEED2A0B0B84 /* MISSmartManager.h */,
+				AB5F6FED5792D12346051887 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AB5F641FD120A169E787874C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6F1F5BFF29A5436C14E4 /* GeoSmart.app */,
+				AB5F67AC53190AAE34D5A880 /* GeoSmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5F64B5416413EB207D5D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F63A2A0161D9F7DBB2A81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5F67F2531EDBA777312DF8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F67FCD357AAC0BCADB0B6 /* 1_MainList */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB5F67FCD357AAC0BCADB0B6 /* 1_MainList */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F61117227B95096BB4288 /* MISSmartListViewController.h */,
+				AB5F69B85278C3D1AFC7ADE7 /* MISSmartListViewController.m */,
+				AB5F6640ED94250A41016536 /* MISSmartListViewModel.m */,
+				AB5F6DD350CE11591D57C287 /* MISSmartListViewModel.h */,
+			);
+			path = 1_MainList;
+			sourceTree = "<group>";
+		};
+		AB5F68E0292EB3027090685D /* GeoSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F64B5416413EB207D5D79 /* Supporting Files */,
+				AB5F6F98ECE8D409C81FDE2E /* GeoSmartTests.m */,
+			);
+			path = GeoSmartTests;
+			sourceTree = "<group>";
+		};
+		AB5F69B507975A25C4108BAF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6784FFFD5B4591F5D3DC /* MISLogFormatter.m */,
+				AB5F6DEAEA0CCA61139D6D5A /* MISLogFormatter.h */,
+				AB5F60C72434B26FBD34C127 /* MISTheme.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AB5F6A87A28EC1473D61E6C7 = {
+			isa = PBXGroup;
+			children = (
+				AB5F641FD120A169E787874C /* Products */,
+				AB5F6E46453BD8F0F428275A /* GeoSmart */,
+				AB5F68E0292EB3027090685D /* GeoSmartTests */,
+				EE9DF0D977374BDA82CE028A /* Pods */,
+				635D6C8EC20D6E99103453EF /* Frameworks */,
+				AB5F67F2531EDBA777312DF8 /* UI */,
+				AB5F6223BE74B81BD94B41D3 /* Core */,
+				AB5F69B507975A25C4108BAF /* Utils */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5F6DA218DD41BF3DC3D8CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6F1929BE4507A17575F3 /* Info.plist */,
+				AB5F69ABBDA181F4E932700B /* main.m */,
+				AB5F6E3BDD087BF709058ADB /* GeoSmart-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB5F6E46453BD8F0F428275A /* GeoSmart */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F6DA218DD41BF3DC3D8CD /* Supporting Files */,
+				AB5F6529DAC17FB83DB3A540 /* Images.xcassets */,
+				AB5F61516A386DD8569B32E7 /* LaunchScreen.xib */,
+				AB5F6385C98525E9168BD18E /* MISGeoSmartAppDelegate.h */,
+				AB5F665C48DE931F7D5C2C87 /* MISGeoSmartAppDelegate.m */,
+			);
+			path = GeoSmart;
+			sourceTree = "<group>";
+		};
+		AB5F6FED5792D12346051887 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F68E357976CF9426BEB27 /* MISAPIManager.m */,
+				AB5F60DA3B202DCFF3521ADC /* MISAPIManager.h */,
+				AB5F6C5B88B13BF63B1569C4 /* MISAPIManager+Context.m */,
+				AB5F6FA6E588BD2BDB09DF31 /* MISAPIManager+Context.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EE9DF0D977374BDA82CE028A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F47D4F9C131CDE588F1663A5 /* Pods-GeoSmart.debug.xcconfig */,
+				ED3CF3D2DDE7A15CA29DF7BB /* Pods-GeoSmart.release.xcconfig */,
+				3C8AE2618CE06002EA11F712 /* Pods-GeoSmartTests.debug.xcconfig */,
+				18D43CEFDA098BE507CFE61C /* Pods-GeoSmartTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5F65568CE725FE79155AB8 /* GeoSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5F6869AF691E18D9885C1F /* Build configuration list for PBXNativeTarget "GeoSmartTests" */;
+			buildPhases = (
+				14887E6693CBE8D80EC18A24 /* Check Pods Manifest.lock */,
+				AB5F6197E6C44A24976B6884 /* Sources */,
+				AB5F61507A57393B15C2D208 /* Frameworks */,
+				AB5F6145EE7CD75ED6753A29 /* Resources */,
+				CAE613168EC7B156CFFCF63E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5F669A90BF474BE8777807 /* PBXTargetDependency */,
+			);
+			name = GeoSmartTests;
+			productName = GeoSmartTests;
+			productReference = AB5F67AC53190AAE34D5A880 /* GeoSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5F6AEB7AA8812ED1D29C33 /* GeoSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5F6735E28DDF824709D55F /* Build configuration list for PBXNativeTarget "GeoSmart" */;
+			buildPhases = (
+				8EA2703768916139008A9856 /* Check Pods Manifest.lock */,
+				AB5F6214664F71C88FD4D284 /* Sources */,
+				AB5F6FE929126EE46EE08B92 /* Frameworks */,
+				AB5F6D568CD5989300FC57B2 /* Resources */,
+				6241DBC1C45254FE11C0BB13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoSmart;
+			productName = GeoSmart;
+			productReference = AB5F6F1F5BFF29A5436C14E4 /* GeoSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5F666C87C274FA0F29982F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Misberri;
+				TargetAttributes = {
+					AB5F6AEB7AA8812ED1D29C33 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AB5F6EF47C55A3309A8D67F0 /* Build configuration list for PBXProject "GeoSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB5F6A87A28EC1473D61E6C7;
+			productRefGroup = AB5F641FD120A169E787874C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5F6AEB7AA8812ED1D29C33 /* GeoSmart */,
+				AB5F65568CE725FE79155AB8 /* GeoSmartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5F6145EE7CD75ED6753A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F6D568CD5989300FC57B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F60D6508CA785E67B1A53 /* Images.xcassets in Resources */,
+				AB5F69789D02DB57128238A8 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14887E6693CBE8D80EC18A24 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6241DBC1C45254FE11C0BB13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSmart/Pods-GeoSmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA2703768916139008A9856 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE613168EC7B156CFFCF63E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoSmartTests/Pods-GeoSmartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5F6197E6C44A24976B6884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F661985F6F07AEBB34EAA /* GeoSmartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5F6214664F71C88FD4D284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5F65489116C53B4E923FFC /* main.m in Sources */,
+				AB5F6C4311CD5186E5EE19E0 /* MISGeoSmartAppDelegate.m in Sources */,
+				AB5F6C63756F8E727D78B181 /* MISSmartListViewController.m in Sources */,
+				AB5F6AF8947138D21429074A /* MISLogFormatter.m in Sources */,
+				AB5F6DC5D4F803D712A00566 /* MISSmartListViewModel.m in Sources */,
+				AB5F69551012463D4E4F3B91 /* MISSmartList.m in Sources */,
+				AB5F6FEF355561186CC9C9A8 /* MISSmartListItem.m in Sources */,
+				AB5F60FFB082D767E63A690C /* MISSmartManager.m in Sources */,
+				AB5F686530E15F6B300EC4E0 /* MISAPIManager.m in Sources */,
+				AB5F6D4D8442BA989E1C0016 /* MISAPIManager+Context.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5F669A90BF474BE8777807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5F6AEB7AA8812ED1D29C33 /* GeoSmart */;
+			targetProxy = AB5F67AC9316C66094596C5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB5F61516A386DD8569B32E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB5F65D33118A81677BEEE47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB5F6014F23673C03F90FC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5F606848560BEE4E3F6961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D43CEFDA098BE507CFE61C /* Pods-GeoSmartTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoSmart.app/GeoSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AB5F629F863171EDCDCA4771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB5F671995002DFB2BE854BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3CF3D2DDE7A15CA29DF7BB /* Pods-GeoSmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GeoSmart/GeoSmart-PrefixHeader.pch";
+				INFOPLIST_FILE = GeoSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		AB5F689EAEF3C06C42EC76E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8AE2618CE06002EA11F712 /* Pods-GeoSmartTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoSmart.app/GeoSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GeoSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AB5F6F66AF443618CE30E304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47D4F9C131CDE588F1663A5 /* Pods-GeoSmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "GeoSmart/GeoSmart-PrefixHeader.pch";
+				INFOPLIST_FILE = GeoSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5F6735E28DDF824709D55F /* Build configuration list for PBXNativeTarget "GeoSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F6F66AF443618CE30E304 /* Debug */,
+				AB5F671995002DFB2BE854BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5F6869AF691E18D9885C1F /* Build configuration list for PBXNativeTarget "GeoSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F689EAEF3C06C42EC76E3 /* Debug */,
+				AB5F606848560BEE4E3F6961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5F6EF47C55A3309A8D67F0 /* Build configuration list for PBXProject "GeoSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5F6014F23673C03F90FC32 /* Debug */,
+				AB5F629F863171EDCDCA4771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5F666C87C274FA0F29982F /* Project object */;
+}
